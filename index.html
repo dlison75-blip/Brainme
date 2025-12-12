@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BrainMe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>BrainMe v2</h1>
+
+    <div class="input-section">
+      <label for="thought-input">Capture a thought:</label>
+      <textarea id="thought-input" rows="4" placeholder="Type anything on your mind..."></textarea>
+      <div class="button-row">
+        <button id="save-btn">Save</button>
+        <button id="clear-input-btn">Clear Input</button>
+        <button id="export-txt-btn">Export TXT</button>
+        <button id="export-json-btn">Export JSON</button>
+      </div>
+    </div>
+
+    <div class="list-section">
+      <div class="list-header">
+        <h2>Saved Thoughts</h2>
+        <div class="list-controls">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search thoughts..."
+          />
+          <button id="clear-all-btn">Clear All</button>
+        </div>
+      </div>
+      <ul id="thoughts-list"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>s
+
+
+
+
+

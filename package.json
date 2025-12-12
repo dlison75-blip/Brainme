@@ -1,0 +1,13 @@
+{
+  "name": "brainme",
+  "version": "1.0.0",
+  "description": "A beautiful, modern personal thought capture application. Capture your thoughts, ideas, and notes in a clean, intuitive interface.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
